@@ -8,7 +8,6 @@ const FETCH_TYPES = {
   DISTRICTS: "FETCH_DISTRICTS",
   WARDS: "FETCH_WARDS",
 };
-
 async function fetchLocationOptions(fetchType, locationId) {
   let url;
   switch (fetchType) {
